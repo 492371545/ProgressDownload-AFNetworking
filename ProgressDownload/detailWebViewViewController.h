@@ -1,5 +1,5 @@
 //
-//  TableViewController.h
+//  detailWebViewViewController.h
 //  ProgressDownload
 //
 //  Created by Mengying Xu on 14-10-17.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface detailWebViewViewController : UIViewController
+- (id)initWithStr:(NSString*)str;
 
 @end
