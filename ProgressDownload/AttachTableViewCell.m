@@ -12,7 +12,7 @@
 
 static NSString* const isDownloadAttachList = @"DownLoadNoticeFile";
 
-@interface AttachTableViewCell()<AttachDownloadQueueDelegate,AttachDownloadQueueDelegate>
+@interface AttachTableViewCell()
 
 @property (nonatomic,readonly) NSData *downloadedData;
 @property (nonatomic,readonly) NSURL *downloadURL;
